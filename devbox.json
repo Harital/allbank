@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.21.0/.schema/devbox.schema.json",
+  "packages": [
+    "cocoapods@1.16.2",
+    "openjdk17@17.0.19",
+    "android-cli@1.1.16919734",
+    "android-tools@36.0.1",
+    "flutter@3.44.4"
+  ],
+  "shell": {
+    "init_hook": [
+      "export DEVELOPER_DIR=\"$(env -u DEVELOPER_DIR /usr/bin/xcode-select -p)\"",
+      "export PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:$PATH\"",
+      "export FLUTTER_SUPPRESS_ANALYTICS=true",
+      "export ANDROID_HOME=\"$DEVBOX_PROJECT_ROOT/.devbox/android-sdk\"",
+      "export ANDROID_SDK_ROOT=\"$ANDROID_HOME\""
+    ],
+    "scripts": {
+      "test": [
+        "flutter test"
+      ],
+      "analyze": ["flutter analyze"],
+      "android-setup": [
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install cmdline-tools/latest",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install platform-tools",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install platforms/android-35",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install platforms/android-36",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install build-tools/35.0.0",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install build-tools/36.0.0",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install cmake/3.22.1",
+        "android --no-metrics --sdk=\"$ANDROID_HOME\" sdk install ndk/28.2.13676358"
+      ]
+    }
+  }
+}

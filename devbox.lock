@@ -1,0 +1,189 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "android-cli@1.1.16919734": {
+      "last_modified": "2026-11-20T15:12:34Z",
+      "resolved": "github:NixOS/nixpkgs/9996594bd38077de6a018ec17453ba3d99182787#android-cli",
+      "source": "devbox-search",
+      "version": "1.1.16919734",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fvm4dixrf6xiy7ym62yp9pdi60i8nhzd-android-cli-1.1.16919734",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fvm4dixrf6xiy7ym62yp9pdi60i8nhzd-android-cli-1.1.16919734"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6065ghjkca7acs3c2ydijb7nccqm0l7a-android-cli-1.1.16919734",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6065ghjkca7acs3c2ydijb7nccqm0l7a-android-cli-1.1.16919734"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9vy7qd9yailqzhgy8j7z04vz5k4p3mrp-android-cli-1.1.16919734",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9vy7qd9yailqzhgy8j7z04vz5k4p3mrp-android-cli-1.1.16919734"
+        }
+      }
+    },
+    "android-tools@36.0.1": {
+      "last_modified": "2026-07-23T05:10:05Z",
+      "resolved": "github:NixOS/nixpkgs/7525d999cd850b9a488817abc89c75dc733acf17#android-tools",
+      "source": "devbox-search",
+      "version": "36.0.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vqr3807yar23rv7wjrb7b9qigvl1x5s0-android-tools-36.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vqr3807yar23rv7wjrb7b9qigvl1x5s0-android-tools-36.0.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/80w40jcmpn1331cx6crf2w3qkrfy0ky9-android-tools-36.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/80w40jcmpn1331cx6crf2w3qkrfy0ky9-android-tools-36.0.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9gqa7nygjci9x8vn29r14m8q8fwd1xqp-android-tools-36.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9gqa7nygjci9x8vn29r14m8q8fwd1xqp-android-tools-36.0.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2ay0ir7lspw865bcamyq6vb6mvx5lj54-android-tools-36.0.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2ay0ir7lspw865bcamyq6vb6mvx5lj54-android-tools-36.0.1"
+        }
+      }
+    },
+    "cocoapods@1.16.2": {
+      "last_modified": "2026-11-07T08:52:32Z",
+      "resolved": "github:NixOS/nixpkgs/085af13c1607f4f73ab1e7a51071faf6577a7e87#cocoapods",
+      "source": "devbox-search",
+      "version": "1.16.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fxva58gjbn0fi8zxbph99sq0amj5vwdc-cocoapods-1.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fxva58gjbn0fi8zxbph99sq0amj5vwdc-cocoapods-1.16.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p2sx7x3yg2cdckrg3p2j835x2csxkln9-cocoapods-1.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p2sx7x3yg2cdckrg3p2j835x2csxkln9-cocoapods-1.16.2"
+        }
+      }
+    },
+    "flutter@3.44.4": {
+      "last_modified": "2026-08-14T15:04:01Z",
+      "resolved": "github:NixOS/nixpkgs/8be7bd0c83f12e2e3bbba07c9044d6fed9e66f7f#flutter",
+      "source": "devbox-search",
+      "version": "3.44.4-sdk-links",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6j1hdh7bbyna6bpn8ki4qsllaknlmsrk-flutter-wrapped-3.44.4-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6j1hdh7bbyna6bpn8ki4qsllaknlmsrk-flutter-wrapped-3.44.4-sdk-links"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wrxpxvmwrqhzhm3d8pn24qs7piapv0p5-flutter-wrapped-3.44.4-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wrxpxvmwrqhzhm3d8pn24qs7piapv0p5-flutter-wrapped-3.44.4-sdk-links"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pnib06kydq7p4nz9ymv06i4l35ww5z52-flutter-wrapped-3.44.4-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pnib06kydq7p4nz9ymv06i4l35ww5z52-flutter-wrapped-3.44.4-sdk-links"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v5b3zd0cfnfswymp0gvmds1p11a7zlxp-flutter-wrapped-3.44.4-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v5b3zd0cfnfswymp0gvmds1p11a7zlxp-flutter-wrapped-3.44.4-sdk-links"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-10-24T11:44:37Z",
+      "resolved": "github:NixOS/nixpkgs/d3b13ad75cc492690728f9307e443dec9ef9a20e?lastModified=1792842277&narHash=sha256-pGPnZGi8y9d76xNeracniXO3dsYVROEmMkMc8jD0Ihc%3D"
+    },
+    "openjdk17@17.0.19": {
+      "last_modified": "2026-11-16T14:48:49Z",
+      "resolved": "github:NixOS/nixpkgs/e21fec321d73511849707a7585e4ea155ee4bf40#openjdk17",
+      "source": "devbox-search",
+      "version": "17.0.19",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5w339fr3rq9brk323ab35kjihsxd4nkc-zulu-ca-jdk-17.0.19",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5w339fr3rq9brk323ab35kjihsxd4nkc-zulu-ca-jdk-17.0.19"
+        }
+      }
+    }
+  }
+}
